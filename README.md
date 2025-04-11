@@ -65,3 +65,14 @@ University: 学部専用
     │   └── sgsmonth        卒業月
     └── ByText
 ```
+
+## 実行
+
+```bash
+% python -m venv .venv
+% source .venv/bin/activate
+% pip install selenium    # もしくは pip install -r requirements.txt
+% python autoregister.py [url]
+```
+`[url]`は、myPageのURLを指定してください。 \
+例: `"https://mypage.3010.i-webs.jp/hoge2027/"`
