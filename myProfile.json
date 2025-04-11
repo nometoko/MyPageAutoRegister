@@ -1,0 +1,74 @@
+{
+    "MyProfile": {
+        "Text": {
+            "kname1": "",
+            "kname2": "",
+            "yname1": "",
+            "yname2": "",
+            "gyubin1": "",
+            "gyubin2": "",
+            "gadrs1": "",
+            "kttel1": "",
+            "kttel2": "",
+            "kttel3": "",
+            "bikoa": "",
+            "bikob": "",
+            "account1": "",
+            "domain1": "",
+            "account2": "",
+            "domain2": ""
+        },
+        "CheckBox": {
+            "ById": {},
+            "ByText": {
+                "AddressInVacation": "現住所と同じ",
+                "Sex": ""
+            }
+        },
+        "Select": {
+            "ByValue": {
+                "ybirth": "",
+                "mbirth": "",
+                "dbirth": ""
+            },
+            "ByText": {
+                "gken": ""
+            }
+        }
+    },
+    "GraduateSchool": {
+        "CheckBox": {
+            "ByText": {
+                "SchoolClassification": "修士",
+                "initial": "",
+                "location": "",
+                "name": "",
+                "faculty": "",
+                "MajorClassification": ""
+            },
+            "ById": {}
+        }
+    },
+    "University": {
+        "CheckBox": {
+            "ByText": {
+                "classification": "大学",
+                "initial": "",
+                "location": "",
+                "name": "",
+                "faculty": "",
+                "department": ""
+            },
+            "ById": {}
+        },
+        "Select": {
+            "ByValue": {
+                "sgnyear": "",
+                "sgnmonth": "",
+                "sgsyear": "",
+                "sgsmonth": ""
+            },
+            "ByText": {}
+        }
+    }
+}
