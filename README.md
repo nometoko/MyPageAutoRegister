@@ -4,25 +4,41 @@
 
 [`myProfile.json`](./myProfile.json)を編集して、以下の情報を入力してください。
 
+> [!CAUTION]
+> 休暇中の住所が現住所と異なる場合は、`AddressInVacation`の行を削除して下さい。
+> 同じ場合は、`MyProfile > Text`の休暇中の部分は空白にして下さい。
+
 ```
 MyProfile
 ├── Text
 │   ├── kname1:   姓
 │   ├── kname2:   名
-│   ├── yname1:   姓（カタカナ）
-│   ├── yname2:   名（カタカナ）
-│   ├── gyubin1:  郵便番号上3桁
-│   ├── gyubin2:  郵便番号下4桁
-│   ├── gadrs1:   住所（都道府県以降）
-│   ├── kttel1:   携帯電話番号上3桁
-│   ├── kttel2:   携帯電話番号中4桁
-│   ├── kttel3:   携帯電話番号下4桁
+│   ├── yname1:   姓 (カタカナ)
+│   ├── yname2:   名 (カタカナ)
+│   ├── gyubin1:  現: 郵便番号上3桁
+│   ├── gyubin2:  現: 郵便番号下4桁
+│   ├── gadrs1:   現: 住所 (市区郡・地名・番地)
+│   ├── gadrs2:   現: 住所 (アパート・マンション名・番号)
+│   ├── kttel1:   現: 携帯電話番号上3桁
+│   ├── kttel2:   現: 携帯電話番号中4桁
+│   ├── kttel3:   現: 携帯電話番号下4桁
+│   ├── kyubin1:  休暇中: 郵便番号上3桁
+│   ├── kyubin2:  休暇中: 郵便番号下4桁
+│   ├── kadrs1:   休暇中: (市区郡・地名・番地)
+│   ├── kadrs2:   休暇中: (アパート・マンション名・番号)
+│   ├── ktel1:    休暇中: 携帯電話番号上3桁
+│   ├── ktel2:    休暇中: 携帯電話番号中4桁
+│   ├── ktel3:    休暇中: 携帯電話番号下4桁
 │   ├── bikoa:    研究室名
 │   ├── bikob:    サークル名
 │   ├── account1: メールアドレス (local part)
 │   ├── domain1:  メールアドレス (domain part)
 │   ├── account2: メールアドレス (local part)
-│   └── domain2:  メールアドレス (domain part)
+│   ├── domain2:  メールアドレス (domain part)
+│   ├── account3: 携帯メールアドレス (local part)
+│   ├── domain3:  携帯メールアドレス (domain part)
+│   ├── account3: 携帯メールアドレス (local part)
+│   └── domain3:  携帯メールアドレス (domain part)
 ├── CheckBox
 │   ├── ById
 │   └── ByText
