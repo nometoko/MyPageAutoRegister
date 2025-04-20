@@ -6,7 +6,7 @@
 
 > [!CAUTION]
 > 休暇中の住所が現住所と異なる場合は、`AddressInVacation`の行を削除して下さい。
-> 同じ場合は、`MyProfile > Text`の休暇中の部分は空白にして下さい。
+> 同じ場合は、`MyProfile > Text`の休暇中の部分は空の文字列にして下さい。
 
 ```
 MyProfile
